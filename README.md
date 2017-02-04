@@ -1,3 +1,2 @@
 
-Making the Bloop! webapp
 
