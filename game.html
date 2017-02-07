@@ -4,16 +4,15 @@
 	<head>
 		<title>Lala Loud</title>
 		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
-		<link href="main.css" rel="stylesheet"/>
+		<link href="CSS/main.css" rel="stylesheet"/>
 		<link rel="icon" href="images/black.ico">
+		<style>
+			body {background-image: url(images/game_bg.jpg);}	
+		</style>
 	</head>
 
 	<body>
-		<div class="img1">
-		    <img src="images/background.gif" height="850" width="1280" />
-		</div>
 		<div class="img2">
-			<img src="images/white.ico" style="position:absolute; top:35px; left:100px" width="100" height="100">
 
 			<audio id="1_sound" src="sounds/1.mp3"></audio>
 			<audio id="2_sound" src="sounds/2.mp3"></audio>
@@ -150,12 +149,10 @@
 			<img id="Record" src="images/music.png" width="40" height="40" />
 			</button>
 			</a>
-			<button>
-			<img id="helper" src="images/helper.jpg" width="40" height="40" onclick="javascript:void window.open('helper.html','1486215989032','width=600,height=560,toolbar=0,menubar=1,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;" /> 
-			</button>
 			<p><strong>Instructions:</strong> Enjoy your own music!<br>
 			<strong>Presented by:</strong> Chong Wang, Gongqian Li, Pu Ke, Yanglu Piao</p>
 		</div> 
+			<input type="image"  src="images/white.ico" style="position:absolute; top:35px; left:100px" width="100" height="100" onclick="javascript:void window.open('helper.html','1486215989032','width=600,height=560,toolbar=0,menubar=1,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;">
 		
 	</body>
 
