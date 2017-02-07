@@ -5,10 +5,18 @@ h1{
 	font-family: "Comic Sans MS", cursive, sans-serif
 
 }
-a:hover{
-	color:yellow; 
-	background-color: transparent;
-	text-decoration: none
+h2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: 300;
+	font-size: 1.7rem;
+	margin: 30px;
+	cursor: pointer;
+	display: inline;
+}
+.nav-container {
+	text-align: center;
+	padding: 50px 0px 60px 0px;
+	color:#21add0;
 }
 a:link {
 	color: #21add0;
@@ -16,9 +24,14 @@ a:link {
 	text-decoration: none;
 }
 a:visited{
-	color: pink;
+	color: #21add0;
 	background-color: transparent;
 	text-decoration: none;
+}
+a:hover{
+	color:pink; 
+	background-color: transparent;
+	text-decoration: none
 }
 a:active{
 	color: #21add0;
