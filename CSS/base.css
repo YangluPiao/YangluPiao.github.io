@@ -13,28 +13,32 @@ h2 {
 	cursor: pointer;
 	display: inline;
 }
-.nav-container {
+nav{
 	text-align: center;
-	padding: 50px 0px 60px 0px;
-	color:#21add0;
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+	margin:auto;
+    border:1px solid grey;
+    font-size:16px;
+    width:600px;
+    height:40px;
+    line-height:30px;
+}
+a{
+	text-align: center;
+	background-color: transparent;
+	text-decoration: none;
 }
 a:link {
 	color: #21add0;
-	background-color: transparent;
-	text-decoration: none;
 }
 a:visited{
 	color: #21add0;
-	background-color: transparent;
-	text-decoration: none;
 }
 a:hover{
 	color:pink; 
-	background-color: transparent;
-	text-decoration: none
 }
 a:active{
 	color: #21add0;
-	background-color: transparent;
-	text-decoration: none;
 }
