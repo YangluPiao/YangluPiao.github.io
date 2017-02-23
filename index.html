@@ -4,17 +4,67 @@
 	<head>
 		<title>Home</title>
 		<style>
-			body {background-image: url(images/universe.png);}	
+			body {background-image: url(background_imgs/universe.png);}	
 		</style>
-		<link href="CSS/base.css" rel="stylesheet"/>
-		<link rel="icon" href="images/py.ico">
+		<link href="CSS/base.css" rel="stylesheet"/,type="text/css">
+        <link href="CSS/card.css" rel="stylesheet" type="text/css">
+        <link href="CSS/events.css" rel="stylesheet" type="text/css">
+		<link rel="icon" href="background_imgs/py.ico">
 	</head>
 	<body>
 		<h1><a href="index.html">Yanglu Piao</a></h1>
-		<nav>
-	      	<span id="about"><h2><a href="index.html">About</a></h2></span>
-			<span id="projects"><h2><a href="game.html">Projects</a></h2></span>  
-	      	<span id="contact"><h2><a href="https://www.linkedin.com/in/yanglu-piao-535a54126">Contact</a></h2></span>
-	    </nav>
+		<div class="nav-container">
+			<span id="about" class="nav"><h2><a>About</a></h2></span>
+			<span id="projects" class="nav"><h2><a>Projects</a></h2></span>  
+	      	<span id="contact" class="nav"><h2><a>Contact</a></h2></span>
+	    </div>
+        <div class="tab-container">
+            <div id="about-div" class="tab iter">
+                <p>Hi! I'm Yanglu Piao, currently a Master's student at Columbia University. I love coding and building cool stuff. I'm also an enthusiastic bodybuilder. Yeah buddy, light weight! </p>
+                <div class="divide"><hr></div>
+                <div class="container">
+                    <div class="event">
+                        <div class="event-image-container">
+                        <a href="http://www.cs.columbia.edu"><img class="event-image"  src="background_imgs/columbia.jpg"></a>
+                        </div>
+                        <div class="event-description">
+                            <p>Electrical Engineering<br>
+                            Sep. 2016 ~ Dec. 2017</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-image-container">
+                        <a href="https://www.uestc.edu.cn/"><img class="event-image"  src="background_imgs/UESTC.jpg"></a>
+                        </div>
+                        <div class="event-description">
+                            <p>Measurement and Control Technology and Instrumentations<br>
+                            Sep. 2012 ~ Jun. 2016</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="projects-div" class="tab iter">
+                <div class="event-title">
+                    <a href="game.html" style="color:black;text-decoration:underline">Lala Loud</a>
+                </div>
+                <p style="font-size:1rem;text-align: left;">A music mixer.</p>
+                <div class="divide"><hr></div>
+                <div class="event-title">
+                    <a href="https://github.com/YangluPiao/PolyGo" style="color:black;text-decoration:underline">PolyGo</a>
+                </div>
+                <p style="font-size:1rem;text-align: left;">A new language designed to manipulate polynomial.</p>
+            </div>
+            <div id="contact-div" class="tab iter">
+                <div class="contact">
+                    <a href="mailto:yp2419@columbia.edu?Subject=Hello!"><img class="fa"  src="background_imgs/gmail.png"></a>
+                    <a href="https://www.linkedin.com/in/yanglu-piao-535a54126/"><img class="fa"  src="background_imgs/linkedin.png"></a>
+                    <a href="background_imgs/scan.jpeg"><img class="fa"  src="background_imgs/wechat.jpg"></a>
+                    <a href="https://www.facebook.com/piao.yl"><img class="fa"  src="background_imgs/fb.png"></a>
+                </div>
+            </div>
+        </div>
+        
 	</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script src="core.js"></script>
 </html>
